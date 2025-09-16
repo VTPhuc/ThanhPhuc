@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book>
+        <title>Lập trình Python</title>
+        <author>Nguyễn Văn A</author>
+        <year>2020</year>
+        <genre>Công nghệ</genre>
+    </book>
+    <book>
+        <title>Trí tuệ nhân tạo</title>
+        <author>Trần Thị B</author>
+        <year>2022</year>
+        <genre>Khoa học</genre>
+    </book>
+    <book>
+        <title>Văn học Việt Nam</title>
+        <author>Lê Văn C</author>
+        <year>2018</year>
+        <genre>Văn học</genre>
+    </book>
+</library>
