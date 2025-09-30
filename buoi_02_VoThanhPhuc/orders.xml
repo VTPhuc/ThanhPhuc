@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE orders [
-<!ELEMENT orders (order+)>
-<!ELEMENT order (product+)>
-<!ATTLIST order id ID #REQUIRED>
+<orders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="orders.xsd">
 
-<!ELEMENT product (name, quantity)>
-<!ATTLIST product id ID #REQUIRED>
-
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT quantity (#PCDATA)>
-]>
-<orders>
     <order id="O001">
         <product id="P001">
             <name>Điện thoại iPhone 14</name>
@@ -32,4 +23,5 @@
             <quantity>5</quantity>
         </product>
     </order>
+
 </orders>

@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE library [
-<!ELEMENT library (book+)>
-<!ELEMENT book (title, author, year, genre)>
-<!ATTLIST book id ID #REQUIRED>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="library.xsd">
 
-<!ELEMENT title (#PCDATA)>
-<!ELEMENT author (#PCDATA)>
-<!ELEMENT year (#PCDATA)>
-<!ELEMENT genre (#PCDATA)>
-]>
-<library>
     <book id="B001">
         <title>Lập trình Python</title>
         <author>Nguyễn Văn C</author>
         <year>2020</year>
         <genre>Công nghệ</genre>
     </book>
+
     <book id="B002">
         <title>Kinh tế học cơ bản</title>
         <author>Trần Thị D</author>
         <year>2018</year>
         <genre>Kinh tế</genre>
     </book>
+
     <book id="B003">
         <title>Văn học Việt Nam hiện đại</title>
         <author>Lê Văn E</author>
         <year>2015</year>
         <genre>Văn học</genre>
     </book>
+
 </library>
