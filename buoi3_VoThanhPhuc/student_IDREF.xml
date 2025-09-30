@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="student_IDREF.xsd">
+    <student id="S001" name="Nguyen Van A"/>
+    <student id="S002" name="Tran Thi B"/>
+    <course id="C001" name="XML Programming">
+        <enroll studentRef="S001"/>
+        <enroll studentRef="S002"/>
+    </course>
+</courses>

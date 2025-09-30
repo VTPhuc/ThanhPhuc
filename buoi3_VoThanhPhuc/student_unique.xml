@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="student_unique.xsd">
+    <student>
+        <id>S001</id>
+        <name>Nguyen Van A</name>
+    </student>
+    <student>
+        <id>S002</id>
+        <name>Tran Thi B</name>
+    </student>
+</students>
