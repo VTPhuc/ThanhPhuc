@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="QUANAN.xsd">
+
+  <!-- Danh sách bàn -->
+  <BAN>
+    <SOBAN>1</SOBAN>
+    <TENBAN>Ban1</TENBAN>
+  </BAN>
+  <BAN>
+    <SOBAN>2</SOBAN>
+    <TENBAN>Ban2</TENBAN>
+  </BAN>
+  <BAN>
+    <SOBAN>3</SOBAN>
+    <TENBAN>BanVIP</TENBAN>
+  </BAN>
+
+  <!-- Danh sách nhân viên -->
+  <NHANVIEN>
+    <MANV>NV01</MANV>
+    <TENNV>Nguyen Van A</TENNV>
+    <SDT>0901234567</SDT>
+    <DIACHI>HCM</DIACHI>
+    <GIOITINH>Nam</GIOITINH>
+    <USERNAME>adminnv01</USERNAME>
+    <PASSWORD>passnv0111</PASSWORD>
+  </NHANVIEN>
+
+  <NHANVIEN>
+    <MANV>NV02</MANV>
+    <TENNV>Le Thi B</TENNV>
+    <SDT>0912345678</SDT>
+    <DIACHI>HN</DIACHI>
+    <GIOITINH>Nu</GIOITINH>
+    <USERNAME>letb02</USERNAME>
+    <PASSWORD>1234567890</PASSWORD>
+  </NHANVIEN>
+
+  <!-- Danh sách món -->
+  <MON>
+    <MAMON>M01</MAMON>
+    <TENMON>Com chien</TENMON>
+    <GIA>45000</GIA>
+    <HINHANH>comchien.jpg</HINHANH>
+  </MON>
+
+  <MON>
+    <MAMON>M02</MAMON>
+    <TENMON>Canh chua</TENMON>
+    <GIA>55000</GIA>
+    <HINHANH>canhchua.png</HINHANH>
+  </MON>
+
+  <MON>
+    <MAMON>M03</MAMON>
+    <TENMON>Ca kho</TENMON>
+    <GIA>60000</GIA>
+    <HINHANH>cakho.jpg</HINHANH>
+  </MON>
+
+  <!-- Danh sách hóa đơn -->
+  <HOADON>
+    <SOHD>HD01</SOHD>
+    <NGAYLAP>2025-10-07</NGAYLAP>
+    <TONGTIEN>165000</TONGTIEN>
+    <SOBAN>1</SOBAN>
+    <MANV>NV01</MANV>
+  </HOADON>
+
+  <HOADON>
+    <SOHD>HD02</SOHD>
+    <NGAYLAP>2025-10-07</NGAYLAP>
+    <TONGTIEN>60000</TONGTIEN>
+    <SOBAN>2</SOBAN>
+    <MANV>NV02</MANV>
+  </HOADON>
+
+  <!-- Chi tiết hóa đơn -->
+  <CTHD>
+    <SOHD>HD01</SOHD>
+    <MAMON>M01</MAMON>
+    <SOLUONG>2</SOLUONG>
+  </CTHD>
+
+  <CTHD>
+    <SOHD>HD01</SOHD>
+    <MAMON>M02</MAMON>
+    <SOLUONG>1</SOLUONG>
+  </CTHD>
+
+  <CTHD>
+    <SOHD>HD02</SOHD>
+    <MAMON>M03</MAMON>
+    <SOLUONG>1</SOLUONG>
+  </CTHD>
+
+</QUANAN>
